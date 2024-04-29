@@ -4,13 +4,13 @@
 
 <instance-profile id="in"
                  name="外边世界"
-                 start-page="docker常见问题.md">
+                 start-page="dockerFAQ.md">
 
-    <toc-element topic="docker-容器导出MySQL.md"/>
-    <toc-element topic="docker常见问题.md"/>
-    <toc-element topic="安装docker.md"/>
-    <toc-element topic="端口查询.md"/>
-    <toc-element topic="Linux常见命令结合使用.md"/>
-    <toc-element topic="Linux常见命令.md"/>
-    <toc-element topic="apache使用.md"/>
+    <toc-element topic="dockerExportMysql.md"/>
+    <toc-element topic="dockerFAQ.md"/>
+    <toc-element topic="dockerInstall.md"/>
+    <toc-element topic="portQuery.md"/>
+    <toc-element topic="combiningCommonLinuxCommands.md"/>
+    <toc-element topic="linuxCommands.md"/>
+    <toc-element topic="apacheUse.md"/>
 </instance-profile>
