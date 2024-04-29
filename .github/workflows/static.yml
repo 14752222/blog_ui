@@ -17,8 +17,10 @@ jobs:
           fetch-depth: 0 # 检出完整的git历史记录
 
       - name: 解压文件 zip 文件
-        run: unzip -o ./dist/webHelpIN2-all.zip -d ./dist/web
-
+        run: |
+            unzip -o ./dist/webHelpIN2-all.zip -d ./
+            rm -rf ./Writerside
+            rm -rf ./dist
 
       - name: Copy files to server
         uses: appleboy/scp-action@master
@@ -27,7 +29,7 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           key: ${{ secrets.KEY }}
-          source: "./dist/web/"
+          source: "./"
           target: ${{ secrets.PATH }}
 
 
