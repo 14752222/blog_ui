@@ -16,9 +16,8 @@ jobs:
         with:
           fetch-depth: 0 # 检出完整的git历史记录
 
-      - name: 解压文件
-        run: |
-          tar -xvf ./dist/webHelpIN2-all.zip -C ./dist/web
+      - name: 解压文件 zip 文件
+        run: unzip -o ./dist.zip -d ./dist/web
 
 
       - name: Copy files to server
