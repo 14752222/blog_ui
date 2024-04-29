@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="外边世界"
+                 start-page="docker常见问题.md">
+
+    <toc-element topic="docker-容器导出MySQL.md"/>
+    <toc-element topic="docker常见问题.md"/>
+    <toc-element topic="安装docker.md"/>
+    <toc-element topic="端口查询.md"/>
+    <toc-element topic="Linux常见命令结合使用.md"/>
+    <toc-element topic="Linux常见命令.md"/>
+    <toc-element topic="apache使用.md"/>
+</instance-profile>
