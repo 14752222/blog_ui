@@ -1,11 +1,26 @@
-# apache使用
+# Apache使用
 
-##### 查看Apache 服务状态
+
+#### 安装
+
+```Shell
+    yum install -y httpd
+
+```
+
+
+#### 启用Apache
+```Shell
+systemctl start httpd
+
+```
+
+##### 查看服务状态
 ```Shell
 systemctl status httpd.service
 ```
 
-##### 重启Apache 服务应用 {id="apache_1"}
+##### 重启服务应用 
 
 ```Shell        
 sudo systemctl restart httpd
