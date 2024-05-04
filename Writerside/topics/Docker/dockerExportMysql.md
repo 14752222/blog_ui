@@ -1,6 +1,6 @@
 # docker 容器导出MySQL
 
-![image.png](image.png)
+![image.png](..%2F..%2Fimages%2Fimage.png)
 
 ### 进入mysql容器
 

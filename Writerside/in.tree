@@ -13,4 +13,5 @@
     <toc-element topic="combiningCommonLinuxCommands.md"/>
     <toc-element topic="linuxCommands.md"/>
     <toc-element topic="apacheUse.md"/>
+    <toc-element topic="start.md"/>
 </instance-profile>

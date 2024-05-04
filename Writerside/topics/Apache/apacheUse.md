@@ -25,3 +25,9 @@ systemctl status httpd.service
 ```Shell        
 sudo systemctl restart httpd
 ```
+
+
+##### 关闭服务
+```Shell
+systemctl stop httpd
+```
